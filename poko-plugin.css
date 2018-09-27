@@ -1,0 +1,74 @@
+/* Poko button */
+.poko-share-plugin-large {
+	width: 58px;
+	height: 62px;
+	margin: 0;
+	padding: 0;
+}
+
+.poko-share-plugin-large a {
+	display: block;
+	width: 58px;
+	height: 62px;
+	background: url("http://poko.lt/beta/wp-content/themes/poko/images/poko-share-large.png") no-repeat 0 0 transparent;
+	text-decoration: none;
+}
+
+.poko-share-plugin-large a:hover {
+	background: url("http://poko.lt/beta/wp-content/themes/poko/images/poko-share-large.png") no-repeat 0 -63px transparent;
+}
+
+.poko-share-plugin-large a span {
+	display: block;
+	width: 58px;
+	height: 36px;
+	line-height: 36px;
+	color: #003380;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+.poko-share-plugin-large a:hover span {
+	color: #003380;
+}
+
+/* TODO: remove the last margin */
+/* All buttons */
+/* Small */
+#poko-share-collection {
+	height: 20px;
+	clear: both;
+}
+
+#poko-share-collection div {
+	float: left;
+	margin-right: 10px;
+}
+
+#poko-share-collection .fb-like {
+	margin-right: 0;
+}
+
+/* Large */
+#poko-share-collection-large {
+	clear: both;
+	height: 62px;
+}
+
+#poko-share-collection-large div {
+	float: left;
+	margin-right: 10px;
+}
+
+#poko-share-collection-large .fb-like {
+	width: 46px;
+	margin-right: 0;
+}
+
+#poko-share-collection-large .poko-share-collection-plus {
+	margin-top: 2px;
+}
+
